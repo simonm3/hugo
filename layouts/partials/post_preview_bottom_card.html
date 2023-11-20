@@ -37,12 +37,12 @@
                 {{ $src = .Resources.GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
             {{ end }}
 
-            {{ $prefix:= ""}}
+            {{ $path:= ""}}
             {{ if not (hasPrefix $src "/") }}
-                {{ $prefix = cast.ToString .RelPermalink }}
+                {{ $path = cast.ToString .RelPermalink }}
             {{ end }}
             
-            <img src="{{ $prefix }}{{ $src }}" alt="{{ .Title }}"
+            <img src="{{ $path }}{{ $src }}" alt="{{ .Title }}"
                         class="card-img-bottom img-fluid lazyload">
 
             {{ if .Params.video }}

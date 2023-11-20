@@ -1,12 +1,11 @@
 ---
 title: Tax return spreadsheet
-categories: [tax, invest, income]
-tags: [blog]
+tags: [tax, invest, income]
 date: 2023-10-21
 image: taxreturn.png
 Description  : "This spreadsheet mirrors the HMRC \"view my calculation screen\" at the end of your tax return..."
 ---
-![](taxreturn.png)
+![tax return spreadsheet](taxreturn.png)
 
 ## Download links
 
